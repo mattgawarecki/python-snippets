@@ -7,7 +7,7 @@ import numpy as np
 class MarkovChainGenerator(object):
     def __init__(self, start_token):
         self.corpus = []
-        self.start_token
+        self.start_token = start_token
 
     def load(self, text):
         # print('Tokenizing sentences')
